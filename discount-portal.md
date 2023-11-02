@@ -1,5 +1,13 @@
 # Discount portal
 
+## Task Assignment
+
+Suggest a project for launching a discount portal in 2 months. You have a 5-member dev team at your disposal, an external designer, and a business guy who can get you the first 1000 deals.
+
+a. Write down the basic, high-level assignment for the dev team. We want to use our own solution, not a 3rd party one.
+
+b. Suggest the next steps you would do after the launch: analytics, further improvements, scaling-up, maintenance.
+
 ## Phase 1. - Research
 
 - **Audience Identification**: How will we define and reach our primary consumers?
@@ -79,7 +87,7 @@ The development process will be segmented into three dedicated teams, each focus
 
 **Backoffice Team**: Their primary objective will be to create a robust management system. This will include tools for managing offers, handling customer support queries, and providing the business department with basic financial operational insights. The functionality they develop will be crucial for the day-to-day administration of the platform.
 
-**UI Team**: This group will be tasked with developing the frontend, integrating authentication services, and collaborating with the UX designer to define a suite of common components for the Storybook, ensuring design consistency across the platform. They will also implement a monitoring tool like Smartlook to track user interactions, which will inform future enhancements based on real-world usage.
+**UI Team**: This group will be tasked with developing the frontend, integrating authentication services, and collaborating with the UX designer to define a suite of common components for the Storybook, ensuring design consistency across the platform. They will also implement a monitoring tool like Smartlook to track user interactions and Google Analytics to track visits which will inform future enhancements based on real-world usage.
 
 **Backend Team**: They will focus on preparing use cases for the various mutations and queries that will be required by the frontend and backoffice, translating these needs into the database model. This ensures that the data structure is optimized for the required operations and is scalable for future needs.
 
@@ -91,7 +99,7 @@ Should the backoffice team have additional capacity, they will contribute to wri
 
 Q&A team will help from second week to check validity of user cases and will provide feedback from user perspective. Team will also check the whole selling flow and will integrate support team to check out we are ready to handle edge cases.
 
-## Phase x - After launch
+## Phase 8. - After launch
 
 In addition to the above strategies, it is critical to continually verify whether we are meeting the expectations set forth at the project's inception. This involves a cyclical process of evaluation and adjustment:
 

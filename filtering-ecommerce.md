@@ -1,8 +1,14 @@
 # Filtering ecommerce
 
+## Task Assignment
+
+Create a new price filter for an e-commerce website. Draft a product assignment for the development team with a focus on the front-end. For example, format it as a Jira issue. Address edge cases and prioritize user experience. Note: The website receives more traffic from mobile devices than desktops.
+
+## Output
+
 Title: (feat) Price Filter Component
 
-Labels:
+Labels: feature, frontend, backend
 
 Assignee: @ui, @backend
 
@@ -16,7 +22,7 @@ Description:
 
 As a user, I want to be able to filter products by price on the e-commerce site so that I can easily find items within my budget, with a particular focus on mobile usability.
 
-There will be two values that user would be able to filter, but both of them can be set null, so in that case it will be ingnored. Values `from` and `to`.
+There will be two values that user would be able to filter, but both of them can be set null, so in that case it will be ingnored. Values `from` and `to` (numbers should by type of `Float`).
 
 - [ ] UX - Check if creating new filter won't break UI on all breakpoins (from desktop to mobile)
 - [ ] UX - Find out an option how to use slider and manual input, ideally figure out how to combine two of those
